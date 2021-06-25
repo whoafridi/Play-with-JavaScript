@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Temparature converter</title>
+    </head>
+    <body>
+        <form id="tempcalc" onsubmit="calculateTemp(); return false">
+            <label for="temp">please enter your value that required</label><br/>
+            <input type="number" name="temp" id="temp"><br/>
+            <select name="temp_diff" id="temp_diff">
+            <option value="cel">celcius</option>
+                <option value="fer">ferhenheit</option>
+            </select><br/>
+            
+            <input type="submit" name="tempt"><br/>
+            <span id="resultContainer"></span>
+        
+        </form>
+        
+
+    
+        <script src="script.js"></script>
+    </body>
+    
+</html>
