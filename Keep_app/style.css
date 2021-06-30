@@ -1,0 +1,25 @@
+.note{
+    padding-bottom: 6px;
+}
+.main{
+    width: 35%;
+    background-color: antiquewhite;
+    padding-bottom: 6px;
+    color: darkblue;
+    border-radius: 10px;
+    margin: 1px 3px;
+    text-align: center;
+    text-shadow: darkblue;
+}
+.area{
+    width: 35%; 
+    background-color: whitesmoke;
+    padding-bottom: 6px;
+    color: blueviolet;
+    border-radius: 10px;
+    margin: 1px 3px;
+}
+.hidden{
+display: none;
+}
+
