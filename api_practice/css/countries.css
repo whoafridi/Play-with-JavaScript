@@ -1,0 +1,19 @@
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.country{
+    border: 2px solid #FFFFFF;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px 2px darkgrey;
+}
+.capital, .name{
+    color: darkblue;
+    border: 2px solid #FFFFFF;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px darkblue;
+}
