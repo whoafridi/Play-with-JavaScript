@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mealdb api check</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+   <div class="container-fluid">
+        <p class="h1 text-center text-success">Search for food you want</p>
+        <div class="input-group mb-3 mt-3 w-25  mx-auto">
+            <input id="search-field" type="text" class="search" placeholder="Search food you want">
+            <button onclick="mealDb()" class="btn btn-outline-secondary ms-2" type="button" id="button-search">Search</button>
+          </div>
+          <div id="meal-details" class="text-center w-50 mx-auto">
+         
+          </div>
+          <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/meal.js"></script>
+</body>
+</html>
