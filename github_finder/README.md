@@ -9,9 +9,9 @@ Example: https://api.github.com/users/a
 
 ## Output
 ### Desktop view
-![[image]](/images/github_desktop.png)
+![image](images/github_desktop.png)
 ### Mobile view
-![[image]](/images/github_mobile.png)
+![image](images/github_mobile.png)
 
 
 
