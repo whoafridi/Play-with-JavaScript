@@ -5,7 +5,9 @@ On locally (recommened) `npm install typescript --save-dev`
 
 Run a single typescript file > `npx tsc --filename.ts`
 
-Run smoothly `npx tsc --init`
+Add a typescript configuration file to run smoothly using `npx tsc --init` command
+
+Add a watch mode so that we can't run with the terminal over and over. Simple type `tsc -w` to add a watch mode.
 
 ## Custom setup 
 
