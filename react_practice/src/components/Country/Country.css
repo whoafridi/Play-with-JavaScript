@@ -1,0 +1,11 @@
+.country-container{
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px whitesmoke;
+}
+.country-container img{
+    width: 40%;
+}
+span{
+    color : darkblue;
+}
