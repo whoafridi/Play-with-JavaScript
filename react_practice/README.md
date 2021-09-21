@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Live site [link](https://1rest-countries-api.netlify.app/)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
