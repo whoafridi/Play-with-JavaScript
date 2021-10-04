@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "coursename":"Javascript Crash Course",
+        "img":"https://www.kindpng.com/picc/m/171-1718046_javascript-programming-language-logo-hd-png-download.png",
+        "description":"JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.",
+        "watchtime":"5 Hours",
+        "learners":"2,299 Learners",
+        "instructor":"Jhankar"
+     },
+     {
+        "id":2,
+        "coursename":"React-JS Crash Course",
+        "img":"https://www.ecured.cu/images/thumb/a/a6/React-logo.png/1200px-React-logo.png",
+        "description":"React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies.",
+        "watchtime":"4.5 Hours",
+        "learners":"1,599 Learners",
+        "instructor":"Jhankar"
+     },
+    {
+       "id":3,
+       "coursename":"Introduction to Python",
+       "img":"https://content.techgig.com/photo/78330904/5-reasons-why-you-should-learn-python-programming-language-in-2020.jpg",
+       "description":"Mastering the most popular general purpose programming language.  Companies worldwide are using Python to harvest insights from their data and gain a competitive edge. Unlike other Python tutorials, this course focuses on Python specifically for data science.",
+       "watchtime":"4 Hours",
+       "learners":"1,299 Learners",
+       "instructor":"Alex AB"
+    },
+    {
+        "id":4,
+        "coursename":"Introduction to SQL",
+        "img":"https://freecourses.site/wp-content/uploads/2020/06/SQL-Course.jpg",
+        "description":"Master the basics of querying tables in relational databases such as MySQL, SQL Server, and PostgreSQL.",
+        "watchtime":"2 Hours",
+        "learners":"299 Learners",
+        "instructor":"Flex AB"
+     },
+     {
+        "id":5,
+        "coursename":"Introduction to R",
+        "img":"https://www.static-contents.youth4work.com/y4w/Documents/TalentLogo/55aa806e-a906-44ac-9969-b47763a8aee4_Talent_1200x1200.png",
+        "description":"Master the basics of data analysis by manipulating common data structures such as vectors, matrices, and data frames.",
+        "watchtime":"3.5 Hours",
+        "learners":"359 Learners",
+        "instructor":"Flex AB"
+     },
+     {
+        "id":6,
+        "coursename":"Introduction to React Native",
+        "img":"https://www.arageek.com/wp-content/uploads/2019/01/React-Native.jpg",
+        "description":"React Native is an open-source UI software framework created by Facebook, Inc. It is used to develop applications for Android, Android TV, iOS, macOS, tvOS, Web, Windows and UWP by enabling developers to use the React framework along with native platform capabilities.",
+        "watchtime":"3 Hours",
+        "learners":"459 Learners",
+        "instructor":"Forid Khan"
+     },
+     {
+        "id":7,
+        "coursename":"Exclusive Node.js Introduction",
+        "img":"https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FMSZaB%2FbtqzSN8mmfL%2F9bFiahqMlfkuGtNz28wWA0%2Fimg.jpg",
+        "description":"Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting",
+        "watchtime":"3 Hours",
+        "learners":"559 Learners",
+        "instructor":"Forid Khan"
+     },
+     {
+        "id":8,
+        "coursename":"Exclusive Redux Introduction",
+        "img":"https://w0.pngwave.com/png/724/234/redux-react-javascript-vue-js-single-page-application-others-png-clip-art.png",
+        "description":"Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. Similar to (and inspired by) Facebook's Flux architecture, it was created by Dan Abramov and Andrew Clark.",
+        "watchtime":"3.5 Hours",
+        "learners":"459 Learners",
+        "instructor":"Forid Khan"
+     }
+]
