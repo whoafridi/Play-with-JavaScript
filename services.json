@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "servicename":"Cavity Protection",
+        "img":"https://www.westshoredentalhygiene.com/wp-content/uploads/2017/07/cavity_protection.jpg",
+        "description":"Keep your winning smile by protecting your teeth from cavities. Colgate® Cavity Protection Toothpaste contains fluoride which is clinically proven to fight cavities on teeth surfaces and exposed roots. The liquid calcium formula helps to strengthen teeth and repair weak spots before cavities start.Pit and Fissure Sealants. If you child has recently welcomed some new , permanent molar teeth, that is a good time to have them checked to determine weather they would benefit from a Fissure Sealant. Even though pits and fissures do occur naturally, they can deepen over time, leading to dental caries."
+     },
+     {
+         "id":2,
+         "servicename":"Implant Dentistry",
+         "img":"https://lirp.cdn-website.com/7d884362/dms3rep/multi/opt/image-640w.png",
+         "description":"A dental implant is a metal post that replaces the root portion of a missing tooth. An artificial tooth (crown) is placed on an extension of the post (abutment) on the dental implant, giving you the look of a real tooth."
+     },
+     {
+         "id":3,
+         "servicename":"Cosmetic Dentistry",
+         "img":"https://carrumdownsdentalcare.com.au/wp-content/uploads/2020/12/whitening.jpg",
+         "description":"Cosmetic dentistry is generally used to refer to any dental work that improves the appearance (though not necessarily the functionality) of teeth, gums and/or bite. It primarily focuses on improvement in dental aesthetics in color, position, shape, size, alignment and overall smile appearance.[1] Many dentists refer to themselves as cosmetic dentists regardless of their specific education, specialty, training, and experience in this field. This has been considered unethical with a predominant objective of marketing to patients.[2] The American Dental Association does not recognize cosmetic dentistry as a formal specialty area of dentistry.[3] However, there are still dentists that promote themselves as cosmetic dentists."
+     },
+     {
+        "id":4,
+        "servicename":"Teeth Whitening",
+        "img":"https://www.escondidofamilydentistry.com/wp-content/uploads/teethxpress.jpg",
+        "description":"Tooth whitening is any process that lightens the color of a tooth. Whitening may be accomplished by physical removal of the stain or a chemical reaction to lighten the tooth color. Bleaching is defined here as the chemical degradation of the chromogens."
+     },
+     {
+        "id":5,
+        "servicename":"Teeth Cleaning",
+        "img":"https://www.deansdentalcare.com/wp-content/uploads/2016/10/DeansDentalCareMens.jpg",
+        "description":"Teeth cleaning is part of oral hygiene and involves the removal of dental plaque from teeth with the intention of preventing cavities (dental caries), gingivitis, and periodontal disease."
+     },
+     {
+         "id":6,
+         "servicename":"Orthodontics",
+         "img":"https://www.glasgowdentalcare.co.uk/wp-content/uploads/2018/11/Paediatric-dentist.jpg",
+         "description":"Orthodontics[a][b] is a dentistry specialty that addresses the diagnosis, prevention, and correction of mal-positioned teeth and jaws, and misaligned bite patterns.[2] It may also address the modification of facial growth, known as dentofacial orthopedics. Abnormal alignment of the teeth and jaws is very common. Nearly 50% of the developed world's population, according to the American Association of Orthodontics, has malocclusions severe enough to benefit from orthodontic treatment.[citation needed]: although this figure decreases to less than 10% according to the same AAO statement when referring to medically necessary orthodontics."
+     },
+     {
+         "id":7,
+         "servicename":"Paradontosis",
+         "img":"https://www.greatseniorliving.com/assets/img/senior-dental-care-@3X.jpg",
+         "description":"Periodontal disease, also known as gum disease, is a set of inflammatory conditions affecting the tissues surrounding the teeth.[4] In its early stage, called gingivitis, the gums become swollen, red, and may bleed.[4] In its more serious form, called periodontitis, the gums can pull away from the tooth, bone can be lost, and the teeth may loosen or fall out.[4] Bad breath may also occur.[1]"
+     },
+     {
+        "id":8,
+        "servicename":"Radiographs",
+        "img":"https://www.greatseniorliving.com/assets/img/senior-dental-care-@3X.jpg",
+        "description":"A radiograph (or plain radiograph although the word 'plain' is strictly superfluous) is the radiologist's preferred term for the static image generated following the passage of x-rays through the patient. Non-imaging clinicians and the lay population generally use the term x-ray to refer to a radiograph, as well as for the radiation itself; e.g. a chest radiograph is often referred to as a chest x-ray."
+     }
+]

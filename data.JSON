@@ -1,0 +1,92 @@
+[
+    {
+       "id":1,
+       "name":"Andrew Ng",
+       "image":"https://hai.stanford.edu/sites/default/files/styles/person_medium/public/person/bio-images/Aurum-Speakers-Bureau-Andrew-Ng.jpg",
+       "age":45,
+       "salary":10000,
+       "position":"Adjunct professor",
+       "institution":"Stanford University"
+    },
+    {
+       "id":2,
+       "name":"Fei-Fei Li",
+       "image":"https://spectrum.ieee.org/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNTU4MTczMC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY4MTEzOTgxM30.oM0CIIFynIx47h0sBYK8EtMXw_c01JRnNJPOQezjfXs/image.jpg",
+       "age":45,
+       "salary":20000,
+       "position":"Sequoia Capital Professor",
+       "institution":"Stanford University"
+    },
+    {
+       "id":3,
+       "name":"Geoffrey Everest Hinton",
+       "image":"https://e3.365dm.com/21/03/1600x900/skynews-geoffrey-hinton_5309331.jpg",
+       "age":73,
+       "salary":10500,
+       "position":"British-Canadian cognitive psychologist",
+       "institution":"University of Toronto"
+    },
+    {
+       "id":4,
+       "name":"Yann LeCun",
+       "image":"https://awards.acm.org/binaries/content/gallery/acm/awards/photo/k-l/lecun_6017366",
+       "age":61,
+       "salary":13400,
+       "position":"Chief AI Scientist",
+       "institution":"New York University"
+    },
+    {
+       "id":5,
+       "name":"Yoshua Bengio",
+       "image":"https://miro.medium.com/max/1400/1*ECbCdEETUMICEbohNVtAkA.png",
+       "age":57,
+       "salary":16000,
+       "position":"Professor",
+       "institution":"University of Montreal"
+    },
+    {
+       "id":6,
+       "name":"Demis Hassabis",
+       "image":"https://content.fortune.com/wp-content/uploads/2021/05/49_WGL-2021-Demis-Hassabis-198.jpg",
+       "age":57,
+       "salary":14000,
+       "position":"British artificial intelligence researcher",
+       "institution":"DeepMind"
+    },
+    {
+       "id":7,
+       "name":"Ian Goodfellow",
+       "image":"https://analyticsindiamag.com/wp-content/uploads/2019/04/1-5.jpg",
+       "age":36,
+       "salary":90000,
+       "position":"Artificial Intelligence scientist",
+       "institution":"Apple Inc."
+    },
+    {
+       "id":8,
+       "name":"Andrej Karpathy",
+       "image":"https://avatars.githubusercontent.com/u/241138",
+       "age":34,
+       "salary":80000,
+       "position":"Computer science researcher",
+       "institution":"Tesla"
+    },
+    {
+       "id":9,
+       "name":"Lex Fridman",
+       "image":"https://lexfridman.com/wordpress/wp-content/uploads/2019/03/lex_fridman_deep_learning_course.jpg",
+       "age":35,
+       "salary":60000,
+       "position":"AI researcher",
+       "institution":"MIT"
+    },
+    {
+       "id":10,
+       "name":"François Chollet",
+       "image":"https://www.pyimagesearch.com/wp-content/uploads/2018/06/francois_chollet.jpg",
+       "age":42,
+       "salary":40000,
+       "position":"AI researcher",
+       "institution":"Google"
+    }
+ ]

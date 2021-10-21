@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "coursename":"Javascript Crash Course",
+        "img":"https://cms-assets.tutsplus.com/uploads/users/48/posts/32467/preview_image/practice-javascript-and-learn-functions-400x277.png",
+        "description":"JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.",
+        "watchtime":"5 Hours",
+        "learners":"2,299 Learners",
+        "instructor":"Jhankar"
+     },
+     {
+        "id":2,
+        "coursename":"React-JS Crash Course",
+        "img":"https://www.ecured.cu/images/thumb/a/a6/React-logo.png/1200px-React-logo.png",
+        "description":"React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies.",
+        "watchtime":"4.5 Hours",
+        "learners":"1,599 Learners",
+        "instructor":"Jhankar"
+     },
+    {
+       "id":3,
+       "coursename":"Introduction to Python",
+       "img":"https://content.techgig.com/photo/78330904/5-reasons-why-you-should-learn-python-programming-language-in-2020.jpg",
+       "description":"Mastering the most popular general purpose programming language.  Companies worldwide are using Python to harvest insights from their data and gain a competitive edge. Unlike other Python tutorials, this course focuses on Python specifically for data science.",
+       "watchtime":"4 Hours",
+       "learners":"1,299 Learners",
+       "instructor":"Alex AB"
+    },
+    {
+        "id":4,
+        "coursename":"Introduction to SQL",
+        "img":"https://freecourses.site/wp-content/uploads/2020/06/SQL-Course.jpg",
+        "description":"Master the basics of querying tables in relational databases such as MySQL, SQL Server, and PostgreSQL.",
+        "watchtime":"2 Hours",
+        "learners":"299 Learners",
+        "instructor":"Flex AB"
+     }
+]
