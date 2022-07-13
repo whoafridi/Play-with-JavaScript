@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CSV-Excel 2 JSON Demo</title>
+
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+        <!-- <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+        <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script> -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.3/jquery.csv.min.js"></script>
+    </head>
+
+    <body>
+
+        <div>
+            <div class="justify-content-center" style="width: 100%; padding: 0 8rem">
+
+                <div class="p-3" style="width:100hw; padding: 1rem">
+                    <h2>CSV File Data</h2>
+                    <ul class="list-group" id="showCSV" >
+                    
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- my script reference -->
+        <script type="text/javascript">
+            var csv_file_API = './UsersSample.csv';
+
+// Do some stuff when page hmtl page is launched
+$(document).ready(function () {
+
+    // read csv file and convert to json format using ajax
+    $.ajax({
+
+        type: 'GET',
+
+        url: csv_file_API,
+
+        dataType: 'text',
+
+        error: function (e) {
+            alert('An error occurred while processing API calls');
+            console.log("API call Failed: ", e);
+        },
+
+        success: function (data) {
+
+            var jsonData = $.csv.toObjects(data);
+
+            console.log(jsonData);
+
+            $.each(jsonData, function (index, value) {
+
+                $('#showCSV').append(
+
+                    '<li>' + 
+                        
+                        '<span style="width: 15%; font-size: 1rem; font-weight: bold; color: #37474F">' +
+                            value['FIRST NAME'] +
+                        '</span>' +
+
+                        '<span style="width: 15%; font-size: 1rem;  color: #37474F">' +
+                            value['LAST NAME'] +
+                        '</span>' +
+
+                        '<span class="">' +
+                            value['PHONE NUMBER'] +
+                        '</span>' +
+
+                        '<span class="">' +
+                            value['EMAIL ADDRESS'] +
+                        '</span>' +
+
+                    '</li>'
+                );
+
+            });
+
+        } // end: Ajax success API call
+
+    }); // end: of Ajax call
+
+}); // end: document.ready()
+        </script>
+
+
+    </body>
+
+</html>
