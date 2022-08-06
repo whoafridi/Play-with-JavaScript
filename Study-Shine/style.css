@@ -1,0 +1,13 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*------------------------
+responsive for mobile
+ -------------------------- */
+@media only screen and (max-width: 576px){
+/*--- for banner ---*/
+.carousel-item img {
+    height: 50vh;
+}
+}
