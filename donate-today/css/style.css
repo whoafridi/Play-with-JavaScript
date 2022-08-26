@@ -1,0 +1,262 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    background: #FF5959;
+    padding: 16px 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: 0;
+}
+p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+
+/* header section css  */
+.header-wrapper{
+    height: 100vh;
+    background-image: url(../images/donation13.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+.header-overly{
+    height: 100vh;
+    background: rgba(10, 10, 10, 0.705);
+}
+.header-content{
+    
+    height: 100px;
+    
+}
+.header-content h1{
+    margin: 0;
+    padding-top:176px;
+    font-size: 65px;
+    line-height: 78px; 
+}
+.header-overly p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+
+/* <!-- donate amount section  css  */
+#donate-amount {
+    margin: 100px 0px;
+    text-align: center;
+}
+#donate-amount h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+.amount-options{
+    width: 60%;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.option{
+    background: #FAFAFA;
+    border: 0;
+    border-radius: 5px;
+    padding: 0px 25px;
+    margin: 55px 10px; 
+}
+.option-two{
+    border: 2px solid #FF5959;
+    background: rgb(223, 182, 182);
+}
+.option h3 {
+    font-size: 30px;
+
+}
+.custom-amount input{
+    border: 0;
+    border-bottom: 1px solid #B3B3B3;
+    color: #B3B3B3;
+    text-align: center;
+    width: 60%;
+    font-size: 18px;
+    margin: 25px auto;
+    padding: 10px 0;
+}
+/* donate amount section  css end  */
+
+/* <!-- donate plane section  --> */
+
+#donate-plan-section{
+    margin: 100px 0;
+    text-align: center;
+
+}
+#donate-plan-section h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.donate-plane-items{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.plane-item{
+    margin: 0px 22px; 
+    padding: 35px 20px;
+
+}
+.plane-item h2 {
+    font-size: 24px;
+}
+.plane-item p{
+    font-size: 16px;
+}
+.frist-plane{
+    background: #EDF5F6;
+}
+.second-plane{
+    background: #FFEEEE;
+}
+.thrid-plane{
+    background: #FFF4D6;
+}
+
+/* <!-- donate plane section  --> */
+
+
+/* contribute-section */
+
+#contribute-section{
+    width: 80%;
+    margin: 100px auto;
+}
+.contribute-item{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0;
+}
+
+.contribute-text{
+    width: 50%;
+    margin-right: 100px;
+}
+.contribute-text h1{
+    font-size: 45px;
+}
+.contribute-image{
+    width: 50%;
+}
+.contribute-image img{
+    width: 450px;
+    height: 480px;
+    border-radius: 5px;
+}
+
+.contribute-item-two .contribute-text{
+    margin-left: 100px;
+}
+/* contribute-section */
+
+/* flooder section  */
+#flooded-areas {
+    margin: 100px 0px;
+    text-align: center;
+    background: rgb(214, 213, 213);
+    padding: 50px;
+}
+#flooded-areas h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+.flooded{
+    width: 60%;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.area{
+    width: 100%;
+    background: #EDF5F6;
+    border: 0;
+    border-radius: 5px;
+    padding: 0px 25px;
+    margin: 55px 10px; 
+}
+.area h4{
+color: #FF5959;
+}
+
+/* floodded areas  */
+
+
+/* update section  */
+
+#update-section{
+    width: 60%;
+    margin:  100px auto;
+    text-align: center;
+}
+#update-section h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.subscribe-are{
+    background: #FFF4D6;
+    padding: 75px;
+    margin-top: 30px;
+}
+.subscribe-are input{
+    padding: 15px 40px;
+    font: 16px;
+    font-weight: 400;
+    border: 0px;
+
+}
+.imput-field{
+    background: #D9D9D9;
+    margin-right: -10px;
+}
+.input-btn{
+    background: #FF5959;
+    color: whitesmoke;
+
+}
+/* update section  */
+
+/* footer area  */
+footer{
+    background: #0B0D17;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer h1 {
+    font-family: cursive;
+    color: #FF5959;
+}
+footer p {
+    font-size: 12px;
+    color: lightgray;
+    margin: 0;
+}
