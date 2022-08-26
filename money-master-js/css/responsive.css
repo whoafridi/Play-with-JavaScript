@@ -1,0 +1,53 @@
+/* for large screen */
+@media screen and (min-width: 1024px) {
+    label {
+        width: 20%;
+    }
+}
+/* for medium screen */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #body-portion {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 3rem;
+    }
+    label {
+        width: 15%;
+    }
+    body{
+        padding: 2rem;
+    }
+    #head-portion{
+        padding: 2rem 0;
+    }
+    .warning{
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        white-space: normal;
+    }
+}
+/* for small screen */
+@media screen and (max-width: 767px) {
+    #body-portion {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 3rem;
+    }
+    label {
+        width: 25%;
+    }
+    #save-btn {
+        margin-top: 1.5rem;
+    }
+    body{
+        padding: 2rem;
+    }
+    #head-portion{
+        padding: 2rem 0;
+    }
+    .warning{
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        white-space: normal;
+    }
+}

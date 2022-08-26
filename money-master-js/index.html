@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Flow Calculator | Assignment 5</title>
+    <!-- favicon for assignment 5 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- stylesheet custom files here -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <!-- font awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- site header segment -->
+    <header id="head-portion">
+        <h1 id="site-title">Your cash flow calculator</h1>
+    </header>
+    <!-- site main segment -->
+    <main>
+        <section id="body-portion">
+            <!-- first portion -->
+            <section id="first-portion">
+                <section id="site-image">
+                    <img src="img/img-1.png" alt="image">
+                </section>
+            </section>
+            <!-- last portion -->
+            <section id="last-portion">
+                <section id="balance-statement">
+                    <!-- income statement -->
+                    <section id="income-statement">
+                        <h2>Income</h2>
+                        <div class="income-box">
+                            <label for="income">Income: </label>
+                            <input type="text" name="income" id="income-input" placeholder="i.e. 123 or 123.15">
+                        </div>
+                    </section>
+                    <!-- expense statement -->
+                    <section id="expense-statement">
+                        <h2>Expenses</h2>
+                        <div class="expense-box-food expense-box">
+                            <label for="expense">Food: </label>
+                            <input type="text" name="food" id="food-input" placeholder="i.e. 123 or 123.15">
+                        </div>
+                        <div class="expense-box-rent expense-box">
+                            <label for="rent">Rent: </label>
+                            <input type="text" name="rent" id="rent-input" placeholder="i.e. 123 or 123.15">
+                        </div>
+                        <div class="expense-box-cloth expense-box">
+                            <label for="cloth">Clothes: </label>
+                            <input type="text" name="cloth" id="cloth-input" placeholder="i.e. 123 or 123.15">
+                        </div>
+                    </section>
+                    <!-- calculate expense statement -->
+                    <section id="calc-expense-statement">
+                        <div class="calc-expense-btn">
+                            <button class="btn-style" type="" id="calc-btn">Calculate <i class="fa fa-calculator" aria-hidden="true"></i>
+                            </button>
+                            <label for="warning" class="warning" id="expense-warning"></label>
+                        </div>
+                        <div class="calc-expense-desc">
+                            <h4 id="total-expense">Total Expenses: $<span id="price-total">0.00</span></h4>
+                            <h4 id="balance">Balance: $<span id="price-balance">0.00</span></h4>
+                        </div>
+                    </section>
+                    <!-- savings statement -->
+                    <section id="savings-statement">
+                        <h2>Savings</h2>
+                        <div class="savings-box">
+                            <label for="save">Save: </label>
+                            <input type="text" name="save" id="save-input" placeholder="i.e. 1 to 100"> <span id="percentage">%</span> <button
+                                class="btn-style" id="save-btn">Save <i class="fa fa-ravelry" aria-hidden="true"></i>
+                            </button>
+                            <br>
+                            <label for="warning" class="warning" id="saving-warning"></label>
+                        </div>
+                    </section>
+                    <!-- calculate savings statement -->
+                    <section id="calc-savings-statement">
+                        <div class="calc-save-desc">
+                            <h4 id="saving-amount">Saving Amount: $<span id="price-saving">0.00</span></h4>
+                            <h4 id="remaining-balance">Remaining Balance: $<span id="price-remaining">0.00</span></h4>
+                        </div>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </main>
+    <!-- script custom files here -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

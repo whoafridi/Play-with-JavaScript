@@ -1,0 +1,23 @@
+# Requirements for assignment:
+* not giving same site name(money master)
+* not giving same image(equivalent accepted)
+* spacing not matter(reasonable gap accepted)
+* responsive: desktop, mobile(tablet optional)
+	* image first
+	* content right after image
+* any css framework(bootstrap or tailwind)
+* using text field mandatory
+* error handing
+	* string says about string
+	* negative numbers says about negative numbers
+* suggent to input numbers only
+* overwhelmed number with respect of income & savings are countable also throwing error message too.
+
+# Bonus mark summary:
+* html & css files are cleaner
+* separate files and folder
+* comments in css, html & js
+* variable names are relevant
+* functions names are relevant
+* reusable funcitons(must)
+* at least 5 commits must
