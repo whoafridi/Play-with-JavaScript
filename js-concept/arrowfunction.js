@@ -57,3 +57,15 @@ arrowFunc()
 const arrowFunc = () => {
     return "Arrow Function"
 }// ReferenceError: Cannot access 'arrowFunc' before initialization
+
+/*
+
+Summary -
+
+In regular function, this value is dynamic, In arrow function it equals to this of the outer function.
+In regular function, arguments will give you list of parameter passed in function, In arrow function arguments is not defined.
+In regular function, you always have to return any value, but in Arrow function you can skip return keyword and write in single line.
+In arrow function parameters should be unique.
+Hoisting matters in arrow function as function get not be invoked before initialisations.
+
+*/
