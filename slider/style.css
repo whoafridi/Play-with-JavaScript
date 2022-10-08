@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner_slider .slide{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./160114_HEM_THE_FRESH_FIVE_ENVIRO_2_2048x2048_fe493c4b-294c-4064-8c48-0bb096cca4c6_1512x.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.banner_slider .slide_two{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./Hero-adjusted-2_1512x.webp);
+}
+
+.banner_slider .slide_three{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./about_4_image_2048x2048_92fce5e4-6b63-4767-ba45-38f7c5d7f790_1512x.webp);
+}
+
+.slide-content{
+    color: #fff;
+    max-width: 650px;
+    padding: 25px 25px 0 25px;
+    border-width: 4px 4px 0 4px;
+    border-color: #ff6f00;
+    border-style: solid;
+}
+
+.slide-content p{
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.slide-content h2{
+    font-size: 60px;
+    line-height: 76px;
+    margin: 25px 0;
+}
+
+.slide-content .btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff6f00;
+    padding: 10px 42px;
+    font-weight: 700;
+    display: inline-block;
+    outline: 1px solid #ff6f00;
+    transition: 0.3s ease in out;
+}
+
+.slide-content .btn:hover{
+    background-color: #fff;
+    color: #ff6f00;
+    outline-color: #fff;
+    outline-offset: 3px;
+}
+
+.slide-content .btn-transparent{
+    background-color: transparent;
+    border-color: #fff;
+    margin-right: 20px;
+    outline-color: #fff;
+}
+
+.slide-content .btn-transparent:hover{
+    background-color: #ff6f00;
+    color: #fff;
+    outline-color: #ff6f00; 
+}
+
+.banner_slider.slick-slider{
+    margin-bottom: 0;
+}
+
+.banner_slider .slick-dots{
+    width: 100%;
+    bottom: 6%;
+}
+
+.banner_slider .slick-dots li button::before{
+    font-size: 16px;
+    color: #ff6f00;
+}
+
+.banner_slider .slick-dots li{
+    margin: 0 3px;
+}
+
+.banner_slider .slick-dots li.slick-active button::before{
+    opacity: 1;
+    color: #ff6f00;
+}
+
+.banner_slider .slick-arrow.prev{
+    left: 0;
+}
+
+
+.banner_slider .slick-arrow.next{
+    right: 0;
+}
+
+.banner_slider .slick-arrow{
+    position:absolute;
+    top: 50%;
+    display: block;
+    z-index: 9;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+.banner_slider .slick-arrow span{
+    color: #fff;
+    font-size: 50px;
+    padding: 8px;
+}
+
+@media only screen and (max-width: 992px){
+    .banner_slider .slide{
+        padding: 0 24px;
+        height: 70vh;
+    }
+
+    .slide-content{
+        max-width: 100%;
+        padding: 10px 10px 0 10px;
+        border-width: 2px 2px 0 2px;
+        text-align: center;
+    }
+
+    .slide-content p{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+    }
+
+    .slide-content h2{
+        font-size: 30px;
+        line-height: 40px;
+        margin: 10px 0;
+    }
+
+    .slide-content .btn{
+        padding: 8px 24px;
+        font-size: 14px;
+    }
+
+    .banner_slider .slick-arrow span{
+        font-size: 25px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .button-wrap{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .slide-content .btn{
+        display: block;
+        width: auto;
+    }
+
+    .slide-content .btn-transparent{
+     margin-right: 0px;   
+     margin-bottom: 10px;
+    }
+
+    .banner_slider .slide{
+        height: 60vh;
+    }
+}
