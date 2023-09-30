@@ -1,0 +1,66 @@
+{
+  "name": "rosetech-frontend",
+  "version": "1.0.0",
+  "description": "Frontend by Rosetech Solutions LTD.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export && npm run run:image-optimize && npm run run:purgecss:global && npm run run:fontmin:global",
+    "start": "next start",
+    "build:image-optimize": "tsc --build ./libs/next-export-optimize-images/cli",
+    "run:image-optimize": "node ./libs/next-export-optimize-images/cli/dist/cli/run",
+    "link:purgecss:global": "npm link purgecss",
+    "run:purgecss:global": "node ./libs/purgecss",
+    "link:fontmin:global": "npm link fontmin",
+    "run:fontmin:global": "node ./libs/fontmin",
+    "telemetry:enable": "next telemetry enable",
+    "telemetry:disable": "next telemetry disable"
+  },
+  "author": "sheikhmishar",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "next": "^12.3.4",
+    "react": "^17.0.2",
+    "react-animation-on-scroll": "^5.1.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^17.0.2",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "sharp": "^0.28.3"
+  },
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "optionalDependencies": {
+    "@types/chart.js": "^2.9.38",
+    "@types/fontmin": "^0.9.0",
+    "@types/node": "13.13.4",
+    "@types/react-chartjs-2": "^2.5.7",
+    "@types/react-dom": "^17.0.2",
+    "@types/sharp": "^0.26.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  }
+}

@@ -1,0 +1,87 @@
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+ready - started server on http://localhost:3000
+We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+
+The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+        - lib was set to dom,dom.iterable,esnext
+        - skipLibCheck was set to true
+        - strict was set to false
+        - forceConsistentCasingInFileNames was set to true
+        - noEmit was set to true
+        - include was set to ['next-env.d.ts', '**/*.ts', '**/*.tsx']
+
+The following mandatory changes were made to your tsconfig.json:
+
+        - esModuleInterop was set to true (requirement for babel)
+        - resolveJsonModule was set to true (to match webpack resolution)
+        - isolatedModules was set to true (requirement for babel)
+        - jsx was set to preserve (next.js implements its own optimized jsx transform)
+
+
+info  - Creating an optimized production build
+info  - Compiled successfully
+info  - Collecting page data
+info  - Generating static pages (6/6)
+info  - Finalizing page optimization
+
+Page                                                           Size     First Load JS
+┌ ○ /                                                          284 B          62.5 kB
+├   /_app                                                      0 B            62.2 kB
+├ ○ /404                                                       3.44 kB        65.6 kB
+├ ● /next                                                      2.83 kB          65 kB
+├ ○ /pos                                                       300 B          62.5 kB
+├ ○ /pos/a                                                     331 B          71.9 kB
+└ ○ /pos/dashboard                                             2.61 kB        74.1 kB
++ First Load JS shared by all                                  62.2 kB
+  ├ chunks/a3c06d89716d4c62a7c7474a11c535c3198488f0.c71ad0.js  12.7 kB
+  ├ chunks/framework.cb05d5.js                                 39.9 kB
+  ├ chunks/main.4ba5ee.js                                      6.52 kB
+  ├ chunks/pages/_app.c70c02.js                                2.39 kB
+  └ chunks/webpack.e06743.js                                   751 B
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+   (ISR)     incremental static regeneration (uses revalidate in getStaticProps)
+
+info  - using build directory: c:\tmp\Gadget-And-Cafe\client\.next
+info  - Copying "static build" directory
+info  - No "exportPathMap" found in "next.config.js". Generating map from "./pages"
+info  - Launching 3 workers
+info  - Copying "public" directory
+info  - Exporting (6/6)
+Export successful
+
+4. WrappedApp created new store with withRedux(GadgetAndCafeApp) { initialState: undefined, initialStateFromGSPorGSSR: undefined }
+
+Page                                                           Size     First Load JS
+┌ ○ /                                                          527 B          76.6 kB
+├   /_app                                                      0 B            76.1 kB
+├ ○ /404                                                       3.44 kB        79.6 kB
+├ ● /next                                                      2.83 kB          79 kB
+├ ○ /pos                                                       529 B          76.7 kB
+├ ○ /pos/branches/list                                         4.09 kB         228 kB
+├ ○ /pos/catalog/brands                                        4.04 kB         228 kB
+├ ○ /pos/catalog/categories                                    3.95 kB         228 kB
+├ ○ /pos/catalog/products/list                                 4.56 kB         228 kB
+├ ○ /pos/catalog/products/retailer                             5.16 kB         229 kB
+├ ○ /pos/catalog/products/variants                             16.2 kB         240 kB
+├ ○ /pos/catalog/variations                                    4.45 kB         228 kB
+├ ○ /pos/dashboard                                             64.5 kB         223 kB
+├ ○ /pos/orders/add                                            6.37 kB        88.8 kB
+├ ○ /pos/orders/detail                                         2.15 kB        84.5 kB
+├ ○ /pos/orders/list                                           2.24 kB         226 kB
+└ ○ /pos/people/list                                           5.28 kB         229 kB
++ First Load JS shared by all                                  76.1 kB
+  ├ chunks/48ba549c2fef350d6dcb6b89bd47495cb0dc65cf.47aa1d.js  12.7 kB
+  ├ chunks/72a9a0487283cbcf689f4ae48098f6b60c173425.d1b4bf.js  14 kB
+  ├ chunks/framework.53cfa6.js                                 40.2 kB
+  ├ chunks/main.f4aba0.js                                      6.53 kB
+  ├ chunks/pages/_app.441f30.js                                1.1 kB
+  └ chunks/webpack.7fbeb9.js                                   1.59 kB
